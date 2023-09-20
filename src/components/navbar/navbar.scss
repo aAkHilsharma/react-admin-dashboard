@@ -1,0 +1,50 @@
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 0;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+
+  &-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 13px;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-left: 2px solid #ccc;
+      padding-left: 10px;
+      p {
+        font-size: 1.3rem;
+      }
+    }
+  }
+  &-foot {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 13px;
+
+    div {
+      display: flex;
+      gap: 15px;
+    }
+  }
+
+  &-icon {
+    font-size: 1.65rem;
+    &:hover {
+      opacity: 0.6;
+      cursor: pointer;
+    }
+  }
+}
+
+.border-right {
+  border-right: 2px solid #ccc;
+  padding-right: 15px;
+}

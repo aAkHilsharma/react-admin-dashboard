@@ -1,0 +1,17 @@
+.percentage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 1rem;
+
+  &-title {
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  &-value {
+    font-size: 4rem;
+    color: #00008b;
+  }
+}

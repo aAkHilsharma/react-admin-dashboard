@@ -1,0 +1,18 @@
+.revenue {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-title {
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  &-amount {
+    font-weight: 600;
+    font-size: 3rem;
+  }
+}
